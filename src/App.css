@@ -1,38 +1,990 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+#frame {
+  align-items: flex-start;
+  border: 1px none;
+  display: inline-flex;
   flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+#frame .overlap-wrapper {
+  background: linear-gradient(180deg, rgb(35.8, 5, 11.99) 0%, rgb(0, 0, 0) 86.5%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 633px;
+  overflow: hidden;
+  position: relative;
+  width: 1392px;
+}
+
+#frame .overlap {
+  height: 1311px;
+  left: 80px;
+  position: relative;
+  top: -286px;
+  width: 1598px;
+}
+
+#frame .overlap-group-1 {
+  height: 1311px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1598px;
+}
+
+#frame .ellipse-group-1 {
+  height: 1311px;
+  left: 287px;
+  position: absolute;
+  top: 0;
+  width: 1311px;
+}
+
+#frame .img-group-1 {
+  height: 1142px;
+  left: 371px;
+  position: absolute;
+  top: 84px;
+  width: 1143px;
+}
+
+#frame .ellipse-2 {
+  height: 974px;
+  left: 455px;
+  position: absolute;
+  top: 168px;
+  width: 975px;
+}
+
+#frame .ellipse-3 {
+  height: 788px;
+  left: 549px;
+  position: absolute;
+  top: 261px;
+  width: 787px;
+}
+
+#frame .ellipse-4 {
+  height: 592px;
+  left: 647px;
+  position: absolute;
+  top: 359px;
+  width: 591px;
+}
+
+#frame .text-wrapper-new {
+  color: #ffffff;
+  font-family: "General Sans-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 612px;
+}
+
+#frame .div-text {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 8px;
+  left: 0;
+  padding: 12px 24px 12px 16px;
+  position: absolute;
+  top: 505px;
 }
 
-.App-link {
-  color: #61dafb;
+#frame .lightbulb {
+  height: 20px;
+  position: relative;
+  width: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#frame .team {
+  -webkit-background-clip: text;
+  background-image: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 194, 201) 100%);
+  color: var(--foundationshadeswhite, #ffffff);
+  font-family: "General Sans-Medium", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 18px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+#frame .group-1 {
+  height: 756px;
+  left: 756px;
+  position: absolute;
+  top: 75px;
+  width: 372px;
+}
+
+#frame .overlap-group-wrapper {
+  height: 756px;
+}
+
+#frame .overlap-group-2 {
+  height: 756px;
+  position: relative;
+  width: 372px;
+}
+
+#frame #frame-wrapper {
+  background: linear-gradient(180deg, rgb(134.94, 16.87, 43.67) 0%, rgb(13.81, 1.38, 4.2) 100%);
+  border-radius: 20.78px;
+  height: 712px;
+  left: 22px;
+  overflow: hidden;
+  position: absolute;
+  top: 22px;
+  transform: rotate(180deg);
+  width: 328px;
+}
+
+#frame .div-wrapper {
+  border-radius: 1000px;
+  height: 296px;
+  left: 16px;
+  overflow: hidden;
+  position: relative;
+  top: 283px;
+  transform: rotate(180deg);
+  width: 296px;
+}
+
+#frame .overlap-2 {
+  height: 532px;
+  left: -154px;
+  position: relative;
+  top: -121px;
+  width: 600px;
+}
+
+#frame .group-2 {
+  height: 296px;
+  left: 154px;
+  position: absolute;
+  top: 121px;
+  transform: rotate(-180deg);
+  width: 296px;
+}
+
+#frame .overlap-group-3 {
+  height: 296px;
+  position: relative;
+}
+
+#frame .ellipse-5 {
+  height: 296px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(180deg);
+  width: 296px;
+}
+
+#frame .ellipse-6 {
+  border: 1px solid;
+  border-color: #ffffff14;
+  border-radius: 42px/15px;
+  height: 30px;
+  left: 106px;
+  position: absolute;
+  top: 260px;
+  transform: rotate(360deg);
+  width: 84px;
+}
+
+#frame .ellipse-7 {
+  border: 1px solid;
+  border-color: #ffffff12;
+  border-radius: 146px/65.5px;
+  height: 131px;
+  left: 2px;
+  position: absolute;
+  top: 83px;
+  transform: rotate(180deg);
+  width: 292px;
+}
+
+#frame .group-3 {
+  height: 532px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 600px;
+}
+
+#frame .iphone-pro-deep {
+  height: 756px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 372px;
+}
+
+#frame .anytime-anywhere {
+  color: var(--foundationshadeswhite, #ffffff);
+  font-family: "General Sans-Semibold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 580px;
+}
+
+#frame .overlap-wrapper-2 {
+  background: linear-gradient(180deg, rgb(38.25, 27.58, 18.65) 0%, rgb(0, 0, 0) 86.5%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 633px;
+  overflow: hidden;
+  position: relative;
+  width: 1392px;
+}
+
+#frame .overlap-3 {
+  height: 898px;
+  left: -95px;
+  position: relative;
+  top: -211px;
+  width: 1582px;
+}
+
+#frame .rectangle {
+  height: 465px;
+  left: 0;
+  position: absolute;
+  top: 393px;
+  width: 1582px;
+}
+
+#frame .rectangle-2 {
+  height: 481px;
+  left: 0;
+  position: absolute;
+  top: 417px;
+  width: 1582px;
+}
+
+#frame .p {
+  color: var(--foundationshadeswhite, #ffffff);
+  font-family: "General Sans-Semibold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 940px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 505px;
+}
+
+#frame .fuel-cards {
+  color: #ffffff;
+  font-family: "General Sans-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 940px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 537px;
+}
+
+#frame .div-2 {
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 8px;
+  left: 932px;
+  padding: 12px 24px 12px 16px;
+  position: absolute;
+  top: 430px;
+}
+
+#frame .group-wrapper {
+  height: 756px;
+  left: 279px;
+  position: absolute;
+  top: 0;
+  width: 372px;
+}
+
+#frame .group-wrapper-2 {
+  background: linear-gradient(180deg, rgb(181, 124, 79) 34.38%, rgb(0, 0, 0) 86.98%);
+  border-radius: 20.78px;
+  height: 712px;
+  left: 22px;
+  overflow: hidden;
+  position: absolute;
+  top: 22px;
+  transform: rotate(180deg);
+  width: 328px;
+}
+
+#frame .group-4 {
+  height: 247px;
+  left: 89px;
+  position: relative;
+  top: 275px;
+  transform: rotate(180deg);
+  width: 150px;
+}
+
+#frame .overlap-group-4 {
+  height: 247px;
+  position: relative;
+}
+
+#frame .group-5 {
+  background-image: url(../public/static/img/ellipse-2201.svg);
+  background-size: 100% 100%;
+  height: 247px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 150px;
+}
+
+#frame .ellipse-8 {
+  border: 1px solid;
+  border-color: #ffffff12;
+  border-radius: 73px/28.5px;
+  height: 57px;
+  left: 2px;
+  position: absolute;
+  top: 58px;
+  transform: rotate(180deg);
+  width: 146px;
+}
+
+#frame .ellipse-9 {
+  border: 1px solid;
+  border-color: #ffffff12;
+  border-radius: 17px/6.5px;
+  height: 13px;
+  left: 58px;
+  position: absolute;
+  top: 3px;
+  transform: rotate(180deg);
+  width: 34px;
+}
+
+#frame .ellipse-10 {
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(138, 80, 45, 0) 100%);
+  border-radius: 17.24px/26px;
+  height: 52px;
+  left: 17px;
+  position: absolute;
+  top: 174px;
+  transform: rotate(-37.21deg);
+  width: 34px;
+}
+
+#frame .ellipse-11 {
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgba(164, 107, 66, 0) 100%);
+  border-radius: 7.4px/27.51px;
+  height: 55px;
+  left: 27px;
+  position: absolute;
+  top: 76px;
+  transform: rotate(-337.64deg);
+  width: 15px;
+}
+
+#frame .overlap-wrapper-3 {
+  background: linear-gradient(180deg, rgb(0, 51.54, 85) 0%, rgb(0, 0, 0) 92.78%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 633px;
+  overflow: hidden;
+  position: relative;
+  width: 1392px;
+}
+
+#frame .overlap-4 {
+  height: 1512px;
+  left: 80px;
+  position: relative;
+  top: -310px;
+  width: 1812px;
+}
+
+#frame .overlap-5 {
+  height: 1512px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1812px;
+}
+
+#frame .group-6 {
+  height: 563px;
+  left: 43px;
+  position: absolute;
+  top: 746px;
+  width: 799px;
+}
+
+#frame .group-7 {
+  height: 823px;
+  left: 202px;
+  position: absolute;
+  top: 0;
+  width: 864px;
+}
+
+#frame .group-8 {
+  height: 1326px;
+  left: 502px;
+  position: absolute;
+  top: 186px;
+  width: 1310px;
+}
+
+#frame .vector {
+  height: 616px;
+  left: 536px;
+  position: absolute;
+  top: 257px;
+  width: 640px;
+}
+
+#frame .group-9 {
+  background-color: #009bff4c;
+  border-radius: 38.5px;
+  height: 77px;
+  left: 481px;
+  position: absolute;
+  top: 344px;
+  width: 77px;
+}
+
+#frame .polygon-wrapper {
+  background-image: url(../public/static/img/ellipse-148.svg);
+  background-size: 100% 100%;
+  height: 62px;
+  left: 7px;
+  position: relative;
+  top: 7px;
+  width: 62px;
+}
+
+#frame .polygon {
+  height: 29px;
+  left: 19px;
+  position: absolute;
+  top: 18px;
+  width: 29px;
+}
+
+#frame .GPS-tracking {
+  color: #ffffff;
+  font-family: "General Sans-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 636px;
+}
+
+#frame .div-3 {
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 8px;
+  left: 0;
+  padding: 12px 24px 12px 16px;
+  position: absolute;
+  top: 529px;
+}
+
+#frame .group-10 {
+  height: 756px;
+  left: 756px;
+  position: absolute;
+  top: 99px;
+  width: 372px;
+}
+
+#frame .img-2 {
+  height: 712px;
+  left: 21px;
+  position: absolute;
+  top: 22px;
+  width: 330px;
+}
+
+#frame .text-wrapper-2 {
+  color: var(--foundationshadeswhite, #ffffff);
+  font-family: "General Sans-Semibold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 604px;
+}
+
+#frame .div-4 {
+  background: linear-gradient(180deg, rgb(63.52, 40.35, 156.19) 0%, rgb(0, 0, 0) 77.57%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 633px;
+  overflow: hidden;
+  position: relative;
+  width: 1392px;
+}
+
+#frame .overlap-6 {
+  background-image: url(../public/static/img/ellipse-188.svg);
+  background-size: 100% 100%;
+  height: 1043px;
+  left: 556px;
+  position: absolute;
+  top: -108px;
+  width: 1043px;
+}
+
+#frame .ellipse-12 {
+  height: 795px;
+  left: 8px;
+  position: absolute;
+  top: 124px;
+  width: 795px;
+}
+
+#frame .ellipse-13 {
+  height: 639px;
+  left: 17px;
+  position: absolute;
+  top: 202px;
+  width: 639px;
+}
+
+#frame .ellipse-14 {
+  height: 472px;
+  left: 26px;
+  position: absolute;
+  top: 286px;
+  width: 471px;
+}
+
+#frame .ellipse-15 {
+  height: 337px;
+  left: 35px;
+  position: absolute;
+  top: 354px;
+  width: 337px;
+}
+
+#frame .ellipse-16 {
+  height: 214px;
+  left: 43px;
+  position: absolute;
+  top: 415px;
+  width: 214px;
+}
+
+#frame .text-wrapper-3 {
+  color: var(--foundationshadeswhite, #ffffff);
+  font-family: "General Sans-Semibold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 321px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 402px;
+}
+
+#frame .fastag {
+  color: var(--foundationshadeswhite, #ffffff);
+  font-family: "General Sans-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 321px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 434px;
+}
+
+#frame .span {
+  color: #ffffff;
+  font-family: "General Sans-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+#frame .div-5 {
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 8px;
+  left: 321px;
+  padding: 12px 24px 12px 16px;
+  position: absolute;
+  top: 327px;
+}
+
+#frame .overlap-7 {
+  background-image: url(../public/static/img/ellipse-189.svg);
+  background-size: 100% 100%;
+  height: 1043px;
+  left: -859px;
+  position: absolute;
+  top: -108px;
+  width: 1043px;
+}
+
+#frame .ellipse-17 {
+  height: 795px;
+  left: 240px;
+  position: absolute;
+  top: 124px;
+  width: 795px;
+}
+
+#frame .ellipse-18 {
+  height: 639px;
+  left: 387px;
+  position: absolute;
+  top: 202px;
+  width: 639px;
+}
+
+#frame .ellipse-19 {
+  height: 472px;
+  left: 546px;
+  position: absolute;
+  top: 286px;
+  width: 471px;
+}
+
+#frame .ellipse-20 {
+  height: 337px;
+  left: 671px;
+  position: absolute;
+  top: 354px;
+  width: 337px;
+}
+
+#frame .ellipse-21 {
+  height: 197px;
+  left: 802px;
+  position: absolute;
+  top: 424px;
+  width: 197px;
+}
+
+#frame .group-11 {
+  height: 756px;
+  left: 184px;
+  position: absolute;
+  top: -211px;
+  width: 372px;
+}
+
+#frame .group-wrapper-3 {
+  background: linear-gradient(180deg, rgb(55.54, 43.8, 108.38) 0%, rgb(7.17, 5.45, 14.88) 100%);
+  border-radius: 20.78px;
+  height: 712px;
+  left: 22px;
+  overflow: hidden;
+  position: absolute;
+  top: 22px;
+  transform: rotate(180deg);
+  width: 328px;
+}
+
+#frame .group-12 {
+  height: 201px;
+  left: 9px;
+  position: relative;
+  top: 279px;
+  transform: rotate(180deg);
+  width: 309px;
+}
+
+#frame .overlap-group-5 {
+  height: 201px;
+  position: relative;
+}
+
+#frame .rectangle-3 {
+  height: 176px;
+  left: 0;
+  position: absolute;
+  top: 25px;
+  transform: rotate(-180deg);
+  width: 309px;
+}
+
+#frame .image {
+  height: 64px;
+  left: 110px;
+  mix-blend-mode: soft-light;
+  position: absolute;
+  top: 91px;
+  transform: rotate(-180deg);
+  width: 90px;
+}
+
+#frame .rectangle-4 {
+  height: 135px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 201px;
+}
+
+#frame .rectangle-5 {
+  height: 110px;
+  left: 201px;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 108px;
+}
+
+#frame .overlap-wrapper-4 {
+  background: linear-gradient(180deg, rgb(8.51, 32.94, 21.28) 0%, rgb(0, 0, 0) 86.5%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 633px;
+  overflow: hidden;
+  position: relative;
+  width: 1392px;
+}
+
+#frame .overlap-8 {
+  height: 1413px;
+  left: -462px;
+  position: relative;
+  top: -532px;
+  width: 1956px;
+}
+
+#frame .overlap-9 {
+  height: 1280px;
+  left: 1298px;
+  position: absolute;
+  top: 134px;
+  width: 658px;
+}
+
+#frame .rectangle-6 {
+  background: linear-gradient(180deg, rgb(50.8, 162.56, 108.92) 0%, rgba(0, 0, 0, 0) 100%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 1240px;
+  left: 193px;
+  position: absolute;
+  top: 20px;
+  transform: rotate(-14.2deg);
+  width: 318px;
+}
+
+#frame .group-13 {
+  height: 756px;
+  left: 0;
+  position: absolute;
+  top: 187px;
+  width: 372px;
+}
+
+#frame .group-wrapper-4 {
+  background: linear-gradient(180deg, rgb(37.19, 119, 79.73) 0%, rgb(5.34, 19.13, 12.51) 100%);
+  border-radius: 20.78px;
+  height: 712px;
+  left: 22px;
+  overflow: hidden;
+  position: absolute;
+  top: 22px;
+  transform: rotate(180deg);
+  width: 328px;
+}
+
+#frame .group-14 {
+  height: 234px;
+  left: 68px;
+  position: relative;
+  top: 252px;
+  transform: rotate(180deg);
+  width: 191px;
+}
+
+#frame .overlap-group-6 {
+  height: 234px;
+  position: relative;
+}
+
+#frame .union {
+  height: 234px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 160px;
+}
+
+#frame .ellipse-22 {
+  height: 234px;
+  left: 31px;
+  position: absolute;
+  top: 0;
+  transform: rotate(-180deg);
+  width: 160px;
+}
+
+#frame .ellipse-23 {
+  background: linear-gradient(180deg, rgb(7.16, 22.31, 15.04) 0%, rgb(50.8, 162.56, 108.92) 100%);
+  border-radius: 68.65px/100.34px;
+  height: 201px;
+  left: 10px;
+  position: absolute;
+  top: 17px;
+  width: 137px;
+}
+
+#frame .image-2 {
+  height: 73px;
+  left: 98px;
+  position: absolute;
+  top: 73px;
+  transform: rotate(-180deg);
+  width: 38px;
+}
+
+#frame .overlap-10 {
+  height: 1398px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1568px;
+}
+
+#frame .rectangle-7 {
+  background: linear-gradient(180deg, rgb(50.8, 162.56, 108.92) 0%, rgba(0, 0, 0, 0) 100%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 1240px;
+  left: 1117px;
+  position: absolute;
+  top: 228px;
+  transform: rotate(-35.22deg);
+  width: 103px;
+}
+
+#frame .overlap-11 {
+  height: 1398px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1156px;
+}
+
+#frame .rectangle-8 {
+  background: linear-gradient(180deg, rgb(50.8, 162.56, 108.92) 0%, rgba(0, 0, 0, 0) 100%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 1240px;
+  left: 513px;
+  position: absolute;
+  top: 153px;
+  transform: rotate(17.29deg);
+  width: 226px;
+}
+
+#frame .rectangle-9 {
+  background: linear-gradient(180deg, rgb(8.51, 32.94, 21.28) 0%, rgba(0, 0, 0, 0) 100%);
+  border: 1px solid;
+  border-color: #ffffff33;
+  border-radius: 16px;
+  height: 1240px;
+  left: 424px;
+  position: absolute;
+  top: -109px;
+  transform: rotate(50.85deg);
+  width: 308px;
+}
+
+#frame .text-wrapper-4 {
+  color: var(--foundationshadeswhite, #ffffff);
+  font-family: "General Sans-Semibold", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 542px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 826px;
+}
+
+#frame .loans {
+  color: var(--foundationshadeswhite, #ffffff);
+  font-family: "General Sans-Bold", Helvetica;
+  font-size: 64px;
+  font-weight: 700;
+  left: 542px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 858px;
+}
+
+#frame .div-6 {
+  align-items: center;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
+  border-radius: 100px;
+  display: inline-flex;
+  gap: 8px;
+  left: 542px;
+  padding: 12px 24px 12px 16px;
+  position: absolute;
+  top: 751px;
 }
