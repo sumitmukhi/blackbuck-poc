@@ -88,7 +88,7 @@
 
 #frame .div-text {
   align-items: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
   /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
@@ -99,6 +99,7 @@
   padding: 12px 24px 12px 16px;
   position: absolute;
   top: 648px;
+  border: 1px solid hsl(0deg 0% 32.44% / 50%);
 }
 
 #frame .lightbulb {
@@ -309,7 +310,7 @@
 
 #frame .div-2 {
   align-items: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
   /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
@@ -320,6 +321,7 @@
   padding: 12px 24px 12px 16px;
   position: absolute;
   top: 555px;
+  border: 1px solid hsl(0deg 0% 53.23% / 50%);
 }
 
 #frame .group-wrapper {
@@ -331,7 +333,7 @@
 }
 
 #frame .group-wrapper-2 {
-  background: linear-gradient(180deg, rgb(181, 124, 79) 34.38%, rgb(0, 0, 0) 86.98%);
+  background: linear-gradient(0deg, rgb(181, 124, 79) 0.38%, rgb(0, 0, 0) 86.98%);
   border-radius: 20.78px;
   height: 712px;
   left: 22px;
@@ -515,7 +517,7 @@
 
 #frame .div-3 {
   align-items: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
   /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
@@ -526,13 +528,14 @@
   padding: 12px 24px 12px 16px;
   position: absolute;
   top: 665px;
+  border: 1px solid hsl(0deg 0% 53.23% / 50%)
 }
 
 #frame .group-10 {
   height: 756px;
   left: 756px;
   position: absolute;
-  top: 99px;
+  top: 384px;
   width: 372px;
 }
 
@@ -540,7 +543,7 @@
   height: 712px;
   left: 21px;
   position: absolute;
-  top: 22px;
+  top: -78px;
   width: 330px;
 }
 
@@ -652,7 +655,7 @@
 
 #frame .div-5 {
   align-items: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
   /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
@@ -663,6 +666,7 @@
   padding: 12px 24px 12px 16px;
   position: absolute;
   top: 460px;
+  border: 1px solid hsl(0deg 0% 53.23% / 50%)
 }
 
 #frame .overlap-7 {
@@ -842,7 +846,7 @@
   left: 22px;
   overflow: hidden;
   position: absolute;
-  top: 22px;
+  top: 20x;
   transform: rotate(180deg);
   width: 328px;
 }
@@ -934,7 +938,7 @@
   border-color: #ffffff33;
   border-radius: 16px;
   height: 1240px;
-  left: 513px;
+  left: 485px;
   position: absolute;
   top: 153px;
   transform: rotate(-17.29deg);
@@ -980,7 +984,7 @@
 
 #frame .div-6 {
   align-items: center;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(-90deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
   /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
@@ -991,4 +995,5 @@
   padding: 5px 30px 5px 16px;
   position: absolute;
   top: 885px;
+  border: 1px solid hsl(0deg 0% 53.23% / 50%)
 }
