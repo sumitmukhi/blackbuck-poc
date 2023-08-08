@@ -83,13 +83,13 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 612px;
+  top: 460px;
 }
 
 #frame .div-text {
   align-items: center;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid;
+  /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
   border-radius: 100px;
@@ -98,7 +98,7 @@
   left: 0;
   padding: 12px 24px 12px 16px;
   position: absolute;
-  top: 505px;
+  top: 648px;
 }
 
 #frame .lightbulb {
@@ -125,7 +125,7 @@
   height: 756px;
   left: 756px;
   position: absolute;
-  top: 75px;
+  top: 390px;
   width: 372px;
 }
 
@@ -154,10 +154,10 @@
 #frame .div-wrapper {
   border-radius: 1000px;
   height: 296px;
-  left: 16px;
+  left: 36px;
   overflow: hidden;
   position: relative;
-  top: 283px;
+  top: 142px;
   transform: rotate(180deg);
   width: 296px;
 }
@@ -291,7 +291,7 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 505px;
+  top: 472px;
 }
 
 #frame .fuel-cards {
@@ -303,13 +303,13 @@
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 537px;
+  top: 415px;
 }
 
 #frame .div-2 {
   align-items: center;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid;
+  /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
   border-radius: 100px;
@@ -318,14 +318,14 @@
   left: 932px;
   padding: 12px 24px 12px 16px;
   position: absolute;
-  top: 430px;
+  top: 555px;
 }
 
 #frame .group-wrapper {
   height: 756px;
   left: 279px;
   position: absolute;
-  top: 0;
+  top: 305px;
   width: 372px;
 }
 
@@ -477,7 +477,7 @@
   height: 77px;
   left: 481px;
   position: absolute;
-  top: 344px;
+  top: 790px;
   width: 77px;
 }
 
@@ -509,13 +509,13 @@
   line-height: normal;
   position: absolute;
   text-align: right;
-  top: 636px;
+  top: 525px;
 }
 
 #frame .div-3 {
   align-items: center;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid;
+  /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
   border-radius: 100px;
@@ -524,7 +524,7 @@
   left: 0;
   padding: 12px 24px 12px 16px;
   position: absolute;
-  top: 529px;
+  top: 665px;
 }
 
 #frame .group-10 {
@@ -626,6 +626,7 @@
   line-height: normal;
   position: absolute;
   top: 402px;
+  text-shadow: none;
 }
 
 #frame .fastag {
@@ -633,11 +634,11 @@
   font-family: "General Sans-Bold", Helvetica;
   font-size: 64px;
   font-weight: 700;
-  left: 321px;
+  left: 320px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 434px;
+  top: 323px;
 }
 
 #frame .span {
@@ -651,7 +652,7 @@
 #frame .div-5 {
   align-items: center;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid;
+  /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
   border-radius: 100px;
@@ -660,7 +661,7 @@
   left: 321px;
   padding: 12px 24px 12px 16px;
   position: absolute;
-  top: 327px;
+  top: 460px;
 }
 
 #frame .overlap-7 {
@@ -675,7 +676,7 @@
 
 #frame .ellipse-17 {
   height: 795px;
-  left: 240px;
+  left: 546px;
   position: absolute;
   top: 124px;
   width: 795px;
@@ -683,7 +684,7 @@
 
 #frame .ellipse-18 {
   height: 639px;
-  left: 387px;
+  left: 612px;
   position: absolute;
   top: 202px;
   width: 639px;
@@ -691,7 +692,7 @@
 
 #frame .ellipse-19 {
   height: 472px;
-  left: 546px;
+  left: 690px;
   position: absolute;
   top: 286px;
   width: 471px;
@@ -699,7 +700,7 @@
 
 #frame .ellipse-20 {
   height: 337px;
-  left: 671px;
+  left: 752px;
   position: absolute;
   top: 354px;
   width: 337px;
@@ -707,7 +708,7 @@
 
 #frame .ellipse-21 {
   height: 197px;
-  left: 802px;
+  left: 817px;
   position: absolute;
   top: 424px;
   width: 197px;
@@ -717,7 +718,7 @@
   height: 756px;
   left: 184px;
   position: absolute;
-  top: -211px;
+  top: 100px;
   width: 372px;
 }
 
@@ -738,7 +739,7 @@
   left: 9px;
   position: relative;
   top: 279px;
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
   width: 309px;
 }
 
@@ -820,7 +821,7 @@
   left: 193px;
   position: absolute;
   top: 20px;
-  transform: rotate(-14.2deg);
+  transform: rotate(14.2deg);
   width: 318px;
 }
 
@@ -828,8 +829,9 @@
   height: 756px;
   left: 0;
   position: absolute;
-  top: 187px;
+  top: 488px;
   width: 372px;
+  z-index: 999;
 }
 
 #frame .group-wrapper-4 {
@@ -860,19 +862,19 @@
 
 #frame .union {
   height: 234px;
-  left: 0;
+  left: 30px;
   position: absolute;
   top: 0;
-  transform: rotate(-180deg);
+  transform: rotate(0deg);
   width: 160px;
 }
 
 #frame .ellipse-22 {
   height: 234px;
-  left: 31px;
+  left: 0px;
   position: absolute;
   top: 0;
-  transform: rotate(-180deg);
+  transform: rotate(0deg);
   width: 160px;
 }
 
@@ -884,14 +886,15 @@
   position: absolute;
   top: 17px;
   width: 137px;
+  transform: rotate(-180deg);
 }
 
 #frame .image-2 {
   height: 73px;
-  left: 98px;
+  left: 55px;
   position: absolute;
   top: 73px;
-  transform: rotate(-180deg);
+  /* transform: rotate(-180deg); */
   width: 38px;
 }
 
@@ -912,7 +915,7 @@
   left: 1117px;
   position: absolute;
   top: 228px;
-  transform: rotate(-35.22deg);
+  transform: rotate(35.22deg);
   width: 103px;
 }
 
@@ -933,7 +936,7 @@
   left: 513px;
   position: absolute;
   top: 153px;
-  transform: rotate(17.29deg);
+  transform: rotate(-17.29deg);
   width: 226px;
 }
 
@@ -943,10 +946,10 @@
   border-color: #ffffff33;
   border-radius: 16px;
   height: 1240px;
-  left: 424px;
+  left: 321px;
   position: absolute;
-  top: -109px;
-  transform: rotate(50.85deg);
+  top: 461px;
+  transform: rotate(-50.85deg);
   width: 308px;
 }
 
@@ -967,24 +970,24 @@
   font-family: "General Sans-Bold", Helvetica;
   font-size: 64px;
   font-weight: 700;
-  left: 542px;
+  left: 540px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 858px;
+  top: 750px;
 }
 
 #frame .div-6 {
   align-items: center;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0) 100%);
-  border: 1px solid;
+  /* border: 1px solid; */
   border-color: transparent;
   border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.56), rgba(255, 255, 255, 0)) 1;
   border-radius: 100px;
   display: inline-flex;
   gap: 8px;
   left: 542px;
-  padding: 12px 24px 12px 16px;
+  padding: 5px 30px 5px 16px;
   position: absolute;
-  top: 751px;
+  top: 885px;
 }

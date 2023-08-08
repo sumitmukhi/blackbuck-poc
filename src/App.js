@@ -122,7 +122,7 @@ function App() {
           <img className="ellipse-16" alt="Ellipse" src="/static/img/ellipse-194.svg" />
           <div className="text-wrapper-3">For Indian Trucking</div>
           <div className="fastag">
-            <span className="span">Fast</span>
+            <span className="span">FAST</span>
             <span className="span">ag</span>
           </div>
           <div className="div-5">

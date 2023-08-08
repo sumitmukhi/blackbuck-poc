@@ -1,5 +1,6 @@
 import React from "react";
 import App from "./App";
+import Footer from "./Footer";
 import "./Home.css";
 
 export const Home = () => {
@@ -44,6 +45,7 @@ export const Home = () => {
                     <div className="rectangle" />
                 </div>
                 {/* <img className="bottom-nav" alt="Bottom nav" src="/static/home/bottomnav.png" /> */}
+                <Footer />
             </div>
         </div>
     );

@@ -1,0 +1,319 @@
+#footer.frame {
+    background-color: #000000;
+    border: 1px none;
+    height: 286px;
+    position: relative;
+    width: 1440px;
+}
+
+#footer.frame .footer-left {
+    color: #6e6e6e;
+    font-family: "General Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 19px;
+    left: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 219px;
+}
+
+#footer.frame .footer-right {
+    color: #6e6e6e;
+    font-family: "General Sans-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 19px;
+    left: 1023px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 219px;
+}
+
+#footer.frame .group {
+    height: 19px;
+    left: 1216px;
+    position: absolute;
+    top: 138px;
+    width: 176px;
+}
+
+#footer.frame .facebook {
+    height: 18px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+}
+
+#footer.frame .social-media-icon {
+    height: 15px;
+    left: 32px;
+    position: absolute;
+    top: 2px;
+    width: 19px;
+}
+
+#footer.frame .twitter {
+    height: 15px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+
+#footer.frame .div {
+    height: 19px;
+    left: 73px;
+    position: absolute;
+    top: 0;
+    width: 19px;
+}
+
+#footer.frame .instagram {
+    height: 18px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+
+#footer.frame .group-wrapper {
+    height: 18px;
+    left: 114px;
+    position: absolute;
+    top: 0;
+    width: 19px;
+}
+
+#footer.frame .group-2 {
+    background-image: url(../public/static/footer/linkedin.svg);
+    background-size: 100% 100%;
+    height: 17px;
+    left: 1px;
+    position: relative;
+    top: 1px;
+    width: 18px;
+}
+
+#footer.frame .div-wrapper {
+    height: 15px;
+    left: 155px;
+    position: absolute;
+    top: 2px;
+    width: 21px;
+}
+
+#footer.frame .group-3 {
+    background-image: url(../public/static/footer/youtube.svg);
+    background-size: 100% 100%;
+    height: 14px;
+    left: 1px;
+    position: relative;
+    width: 20px;
+}
+
+#footer.frame .footer-title {
+    color: #ffffff;
+    font-family: "General Sans-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    height: 19px;
+    left: 358px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+}
+
+#footer.frame .text-wrapper {
+    color: #ffffff;
+    font-family: "General Sans-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    height: 19px;
+    left: 453px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+}
+
+#footer.frame .footer-title-2 {
+    color: #ffffff;
+    font-family: "General Sans-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    height: 19px;
+    left: 571px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+}
+
+#footer.frame .footer-title-3 {
+    color: #ffffff;
+    font-family: "General Sans-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    height: 19px;
+    left: 685px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+}
+
+#footer.frame .footer-title-4 {
+    color: #ffffff;
+    font-family: "General Sans-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    height: 19px;
+    left: 784px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+}
+
+#footer.frame .footer-title-5 {
+    color: #ffffff;
+    font-family: "General Sans-Medium", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    height: 19px;
+    left: 942px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+}
+
+#footer.frame .group-4 {
+    height: 65px;
+    left: 48px;
+    position: absolute;
+    top: 92px;
+    width: 199px;
+}
+
+#footer.frame .copyright {
+    color: #ffffff;
+    font-family: "Helvetica Neue-Regular", Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    height: 17px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 48px;
+}
+
+#footer.frame .group-5 {
+    height: 40px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 142px;
+}
+
+#footer.frame .group-6 {
+    height: 16px;
+    left: 0;
+    position: absolute;
+    top: 24px;
+    width: 139px;
+}
+
+#footer.frame .fill {
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+#footer.frame .img {
+    height: 15px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 11px;
+}
+
+#footer.frame .overlap-group {
+    height: 16px;
+    left: 28px;
+    position: absolute;
+    top: 0;
+    width: 31px;
+}
+
+#footer.frame .fill-2 {
+    height: 15px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+
+#footer.frame .group-7 {
+    height: 16px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+
+#footer.frame .fill-3 {
+    height: 15px;
+    left: 77px;
+    position: absolute;
+    top: 0;
+    width: 14px;
+}
+
+#footer.frame .fill-4 {
+    height: 16px;
+    left: 91px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+
+#footer.frame .group-8 {
+    height: 16px;
+    left: 107px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+
+#footer.frame .fill-5 {
+    height: 15px;
+    left: 123px;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+#footer.frame .fill-6 {
+    height: 15px;
+    left: 60px;
+    position: absolute;
+    top: 0;
+    width: 16px;
+}
+
+#footer.frame .fill-7 {
+    height: 18px;
+    left: 99px;
+    position: absolute;
+    top: 0;
+    width: 43px;
+}
