@@ -5,11 +5,12 @@ import Home from './Home';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+setTimeout(() => {root.render(
   <React.StrictMode>
     <Home />
   </React.StrictMode>
 );
+}, 3000);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
