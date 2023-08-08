@@ -176,7 +176,7 @@
   left: 154px;
   position: absolute;
   top: 121px;
-  transform: rotate(-180deg);
+  transform: rotate(0deg);
   width: 296px;
 }
 
@@ -363,7 +363,7 @@
   left: 0;
   position: absolute;
   top: 0;
-  transform: rotate(-180deg);
+  transform: rotate(0deg);
   width: 150px;
 }
 
@@ -398,7 +398,7 @@
   left: 17px;
   position: absolute;
   top: 174px;
-  transform: rotate(-37.21deg);
+  transform: rotate(140.79deg);
   width: 34px;
 }
 
