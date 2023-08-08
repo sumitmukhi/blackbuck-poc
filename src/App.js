@@ -144,7 +144,7 @@ function App() {
                 <div className="group-12">
                   <div className="overlap-group-5">
                     <img className="rectangle-3" alt="Rectangle" src="/static/img/rectangle-1685.svg" />
-                    <img className="image" alt="Image" src="/static/img/image-52.png" />
+                    <img className="static" alt="Static" src="/static/img/image-52.png" />
                     <img className="rectangle-4" alt="Rectangle" src="/static/img/rectangle-1686.svg" />
                     <img className="rectangle-5" alt="Rectangle" src="/static/img/rectangle-1687.svg" />
                   </div>
@@ -172,7 +172,7 @@ function App() {
                         <img className="union" alt="Union" src="/static/img/union.svg" />
                         <img className="ellipse-22" alt="Ellipse" src="/static/img/ellipse-2200.svg" />
                         <div className="ellipse-23" />
-                        <img className="image-2" alt="Image" src="/static/img/image.svg" />
+                        <img className="image-2" alt="Background" src="/static/img/image.svg" />
                       </div>
                     </div>
                   </div>
